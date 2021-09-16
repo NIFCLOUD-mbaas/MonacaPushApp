@@ -1,7 +1,9 @@
 # <small>【Monaca】<br>アプリにプッシュ通知を組み込もう！</small>
-*2019/03/06更新*
 
 <center><img src="readme-img/001.png" alt="画像1" width="400px"></center>
+
+* 本サンプルは不具合がある場合、issue等から報告いただくようにお願いいたします
+* 作成日：2016/6（更新日：2020/3）
 
 ## 概要
 * [ニフクラ mobile backend](https://mbaas.nifcloud.com/)の『プッシュ通知』機能を実装したサンプルプロジェクトです
@@ -24,12 +26,12 @@
   * 下記リンクより登録（無料）をお願いします<br>https://mbaas.nifcloud.com/
 * 推奨ブラウザ環境の準備
  * Chrome最新版
+* Cordova 9.0, Monaca push plugin  ver 3.0.7導入済み
+
 
 ### Android端末で動作確認をする場合
 * MacOS Mojave v10.14.6 (18G103)
-* Android studio: 3.4.1
 * Simulator: Pixel 2 Android OS Version 10
-* Unity 2019.1.14f1
 
 ### iOS端末で動作確認をする場合
 * Mac（キーチェーンアクセスを利用）
