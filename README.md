@@ -30,8 +30,8 @@
 
 
 ### Android端末で動作確認をする場合
-* MacOS Mojave v10.14.6 (18G103)
-* Simulator: Pixel 2 Android OS Version 10
+* MacOS Big Sur 11.6 
+* Pixle 3 - Android 12 (Simulator)
 
 ### iOS端末で動作確認をする場合
 * Mac（キーチェーンアクセスを利用）
