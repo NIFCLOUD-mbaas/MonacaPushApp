@@ -26,7 +26,7 @@
   * 下記リンクより登録（無料）をお願いします<br>https://mbaas.nifcloud.com/
 * 推奨ブラウザ環境の準備
  * Chrome最新版
-* Cordova 9.0, Monaca push plugin  ver 3.0.7導入済み
+* Cordova 10.0, Monaca push plugin ver 3.1.0導入済み
 
 
 ### Android端末で動作確認をする場合
