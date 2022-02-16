@@ -25,7 +25,7 @@
 * ニフクラ  mobile backend 会員登録
   * 下記リンクより登録（無料）をお願いします<br>https://mbaas.nifcloud.com/
 * 推奨ブラウザ環境の準備
- * Chrome最新版
+  * Chrome最新版
 * Cordova 10.0, Monaca push plugin ver 3.1.0導入済み
 
 
@@ -35,9 +35,12 @@
 
 ### iOS端末で動作確認をする場合
 * Mac（キーチェーンアクセスを利用）
+  * MacOS Big Sur 11.6
 * Apple Developer Program (有償)アカウント
   * 別の Mac で使用しているアカウントの場合、発行する証明書に秘密鍵を紐付けることができません。ただし、アカウントを使用している Mac から秘密鍵を書き出して、今回使用するMacに送ることで作業は可能です
+  * Xcode Version 13.0
 * iOS 端末（最新バージョン推奨）
+  * iPhone 11 pro max - iOS 15.2.1
 * Lightning ケーブル（端末の UDID を調べるために必要です）
 
 <div style="page-break-before:always"></div>
