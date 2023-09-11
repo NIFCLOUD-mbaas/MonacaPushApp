@@ -58,14 +58,15 @@
     <splash src="/res/ios/screen/Default-Portrait@2x~ipad.png" width="1536" height="2048"/>
     <splash src="/res/ios/screen/Default-Landscape@2x~ipad.png" width="2048" height="1536"/>
     <preference name="orientation" value="default"/>
+    <preference name="scheme" value="monaca-app"/>
+    <preference name="hostname" value="localhost"/>
     <config-file platform="ios" parent="CFBundleLocalizations" target="*-Info.plist">
       <array>
         <string>en</string>
         <string>ja</string>
       </array>
     </config-file>
-    <preference name="scheme" value="monaca-app"/>
-    <preference name="hostname" value="localhost"/>
+    <icon src="/res/ios/icon/icon-20.png" width="20" height="20"/>
   </platform>
   <platform name="android">
     <icon src="/res/android/icon/ldpi.png" density="ldpi"/>
@@ -74,6 +75,8 @@
     <icon src="/res/android/icon/xhdpi.png" density="xhdpi"/>
     <icon src="/res/android/icon/xxhdpi.png" density="xxhdpi"/>
     <icon src="/res/android/icon/xxxhdpi.png" density="xxxhdpi"/>
+    <preference name="AndroidXEnabled" value="true"/>
+    <preference name="AndroidWindowSplashScreenBackground" value="#468fff"/>
     <splash src="/res/android/screen/splash-port-ldpi.9.png" density="port-ldpi"/>
     <splash src="/res/android/screen/splash-port-mdpi.9.png" density="port-mdpi"/>
     <splash src="/res/android/screen/splash-port-hdpi.9.png" density="port-hdpi"/>
@@ -81,7 +84,6 @@
     <splash src="/res/android/screen/splash-port-xxhdpi.9.png" density="port-xxhdpi"/>
     <splash src="/res/android/screen/splash-port-xxxhdpi.9.png" density="port-xxxhdpi"/>
     <splash src="/res/android/screen/splash-mdpi.png" density="mdpi"/>
-    <preference name="AndroidXEnabled" value="true"/>
   </platform>
   <platform name="electron">
     <icon src="/res/electron/icon/icon_electron_512.png" width="512" height="512"/>
@@ -91,16 +93,17 @@
     <splash src="/res/electron/screen/electron_splash_image.png" width="620" height="300"/>
   </platform>
   <preference name="MediaTypesRequiringUserActionForPlayback" value="none"/>
-  <preference name="AutoHideSplashScreen" value="true"/>
-  <preference name="FadeSplashScreen" value="true"/>
-  <preference name="ShowSplashScreenSpinner" value="false"/>
-  <preference name="EnableViewportScale" value="false"/>
-  <preference name="target-device" value="universal"/>
-  <access origin="*"/>
   <preference name="KeepRunning" value="true"/>
   <preference name="monaca:AndroidIsPackageNameSeparate" value="false"/>
-  <preference name="DisallowOverscroll" value="true"/>
   <preference name="Orientation" value="default"/>
   <preference name="SplashScreenDelay" value="1000"/>
   <preference name="Fullscreen" value="false"/>
+  <preference name="ios-XCBuildConfiguration-TARGETED_DEVICE_FAMILY" value="1,2"/>
+  <preference name="target-device" value="universal"/>
+  <preference name="AutoHideSplashScreen" value="true"/>
+  <preference name="FadeSplashScreen" value="true"/>
+  <preference name="ShowSplashScreenSpinner" value="false"/>
+  <access origin="*"/>
+  <preference name="DisallowOverscroll" value="true"/>
+  <preference name="EnableViewportScale" value="false"/>
 </widget>

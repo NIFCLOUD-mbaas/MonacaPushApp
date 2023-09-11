@@ -3,7 +3,7 @@
 <center><img src="readme-img/001.png" alt="画像1" width="400px"></center>
 
 * 本サンプルは不具合がある場合、issue等から報告いただくようにお願いいたします
-* 作成日：2016/6（更新日：2020/3）
+* 作成日：2016/6（更新日：2023/8）
 
 ## 概要
 * [ニフクラ mobile backend](https://mbaas.nifcloud.com/)の『プッシュ通知』機能を実装したサンプルプロジェクトです
@@ -26,21 +26,21 @@
   * 下記リンクより登録（無料）をお願いします<br>https://mbaas.nifcloud.com/
 * 推奨ブラウザ環境の準備
   * Chrome最新版
-* Cordova 10.0, Monaca push plugin ver 3.1.1導入済み
+* Cordova 10.0, Monaca push plugin ver 3.1.2導入済み
 
 
 ### Android端末で動作確認をする場合
-* MacOS Big Sur 11.6 
+* MacOS Big Sur 11.6
 * Pixle 3 - Android 12 (Simulator)
 
 ### iOS端末で動作確認をする場合
 * Mac（キーチェーンアクセスを利用）
-  * MacOS Big Sur 11.6
+  * MacOS Ventura 13.4.1
 * Apple Developer Program (有償)アカウント
   * 別の Mac で使用しているアカウントの場合、発行する証明書に秘密鍵を紐付けることができません。ただし、アカウントを使用している Mac から秘密鍵を書き出して、今回使用するMacに送ることで作業は可能です
   * Xcode Version 13.0
 * iOS 端末（最新バージョン推奨）
-  * iPhone 11 pro max - iOS 15.2.1
+  * iPhone SE - iOS 17
 * Lightning ケーブル（端末の UDID を調べるために必要です）
 
 <div style="page-break-before:always"></div>
